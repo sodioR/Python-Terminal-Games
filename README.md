@@ -2,8 +2,6 @@
 
 A collection of text-based games built in Python built for CMSC 201 by Sadia Rahman, showcasing core programming concepts such as recursion, control flow, and game logic.
 
----
-
 ## Games Included
 
 ### Demogorgon Survival RPG
@@ -29,7 +27,6 @@ _ O X _ _ _ _
 _ O X _ _ _ _
 _ O X _ _ _ _
 
-
 ### Sudoku
 
 A playable Sudoku game with a built-in solver using backtracking. Load puzzles, make moves, undo, and validate solutions.
@@ -39,3 +36,19 @@ A playable Sudoku game with a built-in solver using backtracking. Load puzzles, 
 2 | 6 _ _ | 1 9 5 | _ _ _ |
 3 | _ 9 8 | _ _ _ | _ 6 _ |
 +-------+-------+-------+
+
+## Tech
+
+- Python  
+- Recursion & Backtracking (Sudoku)  
+- Game Logic & Control Flow  
+- File I/O  
+
+## How to Run
+
+Make sure Python is installed, then run any game:
+
+```bash
+python rpg/demogorgon_survival_rpg.py
+python connect_four/connect_four.py
+python sudoku/sudoku_game.py
